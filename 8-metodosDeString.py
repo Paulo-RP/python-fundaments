@@ -8,5 +8,5 @@ print(movieName.title()) # Primeira letra em maiúsculo
 print(movieName.center(24, '-'))
 print(movieName.find("e"))
 print(movieName.find("a"))
-print(movieName.replace('Slayer', 'Abacate'))
+print(movieName.replace('Slayer', 'Abacate')) #Substituí palavras e etc
 print(movieDescription.split(','))
