@@ -18,8 +18,14 @@ print(city3)
 print(len(cidades))'''
 
 # Exercicio 8 - Set
-num1 = int(input('num1'))
-num2 = int(input('num2'))
-num3 = int(input('num3'))
-num4 = int(input('num4'))
-num5 = int(input('num5'))
+num1 = int(input('num1\n'))
+num2 = int(input('num2\n'))
+num3 = int(input('num3\n'))
+num4 = int(input('num4\n'))
+num5 = int(input('num5\n'))
+
+numSets = {num1, num2, num3, num4, num5}
+print(numSets)
+print(len(numSets))
+maiorNumero = max(numSets)
+print(maiorNumero)
