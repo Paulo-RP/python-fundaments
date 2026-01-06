@@ -22,4 +22,10 @@ pp.pprint(animeDict)
 # 1 - Buscar informação dentro de um dicionário alinhado
 print(animeDict["interstellar"]["imdbRating"])
 
-# 2 - 
+# 2 - Adicionar novo item
+animeDict["interstellar"]["director"] = "Paulo R. P. Silva"
+pp.pprint(animeDict)
+
+# 3 - Excluir um dicionário
+del animeDict["The Dark Knight"]
+pp.pprint(animeDict)
